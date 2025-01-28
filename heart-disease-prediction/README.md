@@ -71,4 +71,14 @@ ca	Number of major vessels (0-3) colored by fluoroscopy.
 thal	Thalassemia (1 = normal, 2 = fixed defect, 3 = reversible defect).
 target	Target variable (1 = heart disease present, 0 = no heart disease).
 
+**Output**
+The prediction result from the model indicates whether a person has heart disease or not, based on the input features provided.
+
+If the result is 1:
+Output: "The person has heart disease."
+
+If the result is 0:
+Output: "The person does not have heart disease."
+
+The model uses various health parameters (such as age, chest pain type, cholesterol level, etc.) to make this prediction.
 
